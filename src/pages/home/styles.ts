@@ -49,8 +49,8 @@ export const Header = styled.header`
 
         button {
           background: white;
-          color: #003087;
-          border: 2px solid #003087;
+          color: #1c1c5e;
+          border: 2px solid #1c1c5e;
           padding: 10px 20px;
           border-radius: 5px;
           cursor: pointer;
@@ -63,12 +63,13 @@ export const Header = styled.header`
 // Seção geral
 export const Section = styled.section`
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 40px;
 
   .text-content {
     max-width: 600px;
+    margin-left: 20px;
 
     h2 {
       font-size: 24px;
@@ -78,32 +79,36 @@ export const Section = styled.section`
     p {
       font-size: 16px;
       margin-bottom: 20px;
+      margin-left: 40px;
     }
 
     button {
       background: white;
-      color: #003087;
-      border: 2px solid #003087;
+      color: #1c1c5e;
+      border: 2px solid #1c1c5e;
       padding: 10px 20px;
       border-radius: 5px;
       cursor: pointer;
+      margin-top: 10px;
+      margin-left: 40px;
     }
-  }
-
-  .image-placeholder {
-    width: 300px;
-    height: 200px;
-    background: #ddd;
-    border-radius: 10px;
+    
+    image-placeholder {
+      width: 100%;
+      height: 200px;
+      background: #ddd;
+      border-radius: 10px;
+      margin-bottom: 10px;
   }
 `;
 
 // Linha decorativa
 export const Line = styled.div<{ bgColor?: string; width?: string }>`
-  height: 4px;
+  height: 2px;
   background: ${({ bgColor }) => bgColor || '#F16421'};
-  width: ${({ width }) => width || '50px'};
+  width: ${({ width }) => width || '100%'};
   margin: 10px 0;
+  margin-bottom: 20px;
 `;
 
 // Contêiner de cartões
@@ -138,16 +143,19 @@ export const Card = styled.div`
 
   button {
     background: white;
-    color: #003087;
-    border: 2px solid #003087;
+    color: #1c1c5e;
+    border: 2px solid #1c1c5e;
     padding: 10px 15px;
     border-radius: 5px;
     cursor: pointer;
     margin-top: 10px;
+    margin-bottom: 0px;
+    width: 100%;
   }
 
   .image-placeholder {
     width: 100%;
+    height: 200px;
     background: #ddd;
     border-radius: 10px;
     margin-bottom: 10px;
