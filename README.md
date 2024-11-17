@@ -27,22 +27,11 @@ Wictor Mello
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 ![ChatGPT](https://img.shields.io/badge/ChatGPT-00A67E?style=for-the-badge&logo=OpenAI&logoColor=white)
 
-## 🌐 Navegue na solução
-
-1. 🔗 **Clique no link:** [Acesse aqui](https://jaiiminho-client.vercel.app/login)
-2. 🧑‍💻 **Utilize o CPF:** `12345678910`
-3. 🔑 **Utilize a senha:** `tangamandapio`
-4. 👉 **Clique em** `Entrar` e explore a plataforma! 🚀
-5. ⚠️ **Aviso** O deploy aind não está atualizado com a função de memória, mas se rodar o servidor locamento pelo repo da nossa API você terá acesso a essa funcionalidade
-   
 ## Instalação ⬇️
 
 ### Passo 1: Clonar o Repositório
 
 Abra o terminal e execute o seguinte comando para clonar o repositório do projeto:
-```bash
-git clone https://github.com/GustavoHLMA/jAIminho-client.git
-```
 
 ### Passo 2: Instalar Dependências
 
@@ -58,6 +47,5 @@ No terminal, dentro da pasta do projeto, execute:
 ```bash
 npm run dev
 ```
-## Repositório da API 🔨
-- https://github.com/GustavoHLMA/jAIminho-server
+
 
