@@ -14,6 +14,7 @@ import DownloadIcon from '@mui/icons-material/CloudDownload';
 import ShareIcon from '@mui/icons-material/Share';
 import EditIcon from '@mui/icons-material/Edit';
 import MenuBookIcon from '@mui/icons-material/MenuBook';
+import NavBar from '@/components/NavBar';
 
 const Gamificacao: React.FC = () => {
   const progress = 75; // Progresso do gráfico rosca
@@ -22,7 +23,7 @@ const Gamificacao: React.FC = () => {
   return (
     <Box
       sx={{
-        backgroundColor: '#fbfbfb',
+        backgroundColor: '#ffffff',
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
@@ -31,7 +32,7 @@ const Gamificacao: React.FC = () => {
         minHeight: '100vh'
       }}
     >
-      {/* Header */}
+      <NavBar />
       <Box
         sx={{
           display: 'flex',

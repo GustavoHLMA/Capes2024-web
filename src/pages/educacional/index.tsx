@@ -18,6 +18,7 @@ import {
   Carousel,
   RelatedSection
 } from './styles';
+import NavBar from '@/components/NavBar';
 
 const Educacional: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -56,6 +57,7 @@ const Educacional: React.FC = () => {
 
   return (
     <EducacionalStyled>
+      <NavBar />
       {/* Cabeçalho */}
       <Header>
         <h1>Educacional</h1>
