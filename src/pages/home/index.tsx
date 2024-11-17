@@ -57,11 +57,15 @@ const Home: React.FC = () => {
       </Header>
 
       {/* Treinamentos */}
-      <Section style={{ backgroundColor: '#003087', color: '#fff' }}>
+      <Section style={{ backgroundColor: '#1C1C5E', color: '#fff' }}>
         <div className="text-content">
           <h2>Treinamentos</h2>
-          <Line style={{ backgroundColor: '#F16421', width: '80px' }} />
-          <p>Quer aprender a pesquisar no Portal de Periódicos da CAPES?</p>
+          <Line style={{ backgroundColor: '#F16421', width: '35vw' }} />
+          <p>
+            <strong>
+              Quer aprender a pesquisar no Portal de Periódicos da CAPES?
+            </strong>
+          </p>
           <p>
             Participe dos treinamentos e otimize sua busca. As inscrições são
             gratuitas e as turmas oferecidas por área do conhecimento, para um
@@ -78,14 +82,16 @@ const Home: React.FC = () => {
       <Section style={{ backgroundColor: '#fafafa' }}>
         <div className="text-content">
           <h2>Informativos</h2>
-          <Line style={{ backgroundColor: '#F16421', width: '80px' }} />
+          <Line style={{ backgroundColor: '#F16421', width: '100%' }} />
         </div>
         <CardContainer>
           {/* Card 1 */}
           <Card>
-            <div className="image-placeholder">
-              <Image src={pesquisa} alt="Pesquisa Ciência" />
-            </div>
+            <Image
+              src={pesquisa}
+              alt="Pesquisa Ciência"
+              className="image-placeholder"
+            />
             <h3>
               Pesquisas em Ciências de Alimentos são destaques em publicação
             </h3>
@@ -98,9 +104,11 @@ const Home: React.FC = () => {
           </Card>
           {/* Card 2 */}
           <Card>
-            <div className="image-placeholder">
-              <Image src={cientistas} alt="15 cientistas mulheres" />
-            </div>
+            <Image
+              src={cientistas}
+              alt="15 cientistas mulheres"
+              className="image-placeholder"
+            />
             <h3>CAPES e Elsevier premiam 15 cientistas mulheres</h3>
             <p>
               São três vencedoras em cada região do País, em relação às áreas,
@@ -111,9 +119,11 @@ const Home: React.FC = () => {
           </Card>
           {/* Card 3 */}
           <Card>
-            <div className="image-placeholder">
-              <Image src={bioquimica} alt="Bioquímica" />
-            </div>
+            <Image
+              src={bioquimica}
+              alt="Bioquímica"
+              className="image-placeholder"
+            />
             <h3>
               Treinamento discute publicação de artigo na Biochemical Society
             </h3>
