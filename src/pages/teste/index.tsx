@@ -1,13 +1,9 @@
-import { Container, SimpleButton1 } from './styles';
+import { Container } from './styles';
 import SimpleButton from '@/components/SimpleButton';
-import { useRouter } from 'next/router';
-import NavBar from '@/components/NavBar';
 
 export default function Teste() {
-  const router = useRouter();
   return (
     <Container>
-      <NavBar />
       <h1
         style={{
           color: 'green',
@@ -17,20 +13,6 @@ export default function Teste() {
         teste
       </h1>
       <SimpleButton value="Hello World" />
-      <div
-        style={{
-          backgroundColor: 'red'
-        }}
-      >
-        <p> olá</p>
-      </div>
-      <SimpleButton1
-        onClick={() => {
-          router.push('/home');
-        }}
-      >
-        Teste
-      </SimpleButton1>
     </Container>
   );
 }

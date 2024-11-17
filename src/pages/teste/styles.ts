@@ -12,9 +12,3 @@ export const Container = styled.div`
   width: 100vw;
   background-color: #400080;
 `;
-
-export const SimpleButton1 = styled.div`
-  display: flex;
-  backgroud: 'red';
-  font-color: 'white';
-`;
