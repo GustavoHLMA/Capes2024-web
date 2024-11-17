@@ -31,7 +31,7 @@ Wictor Mello
 
 ### Passo 1: Clonar o Repositório
 
-Abra o terminal e execute o seguinte comando para clonar o repositório do projeto:
+Abra o terminal e execute o comando para clonar o repositório do projeto
 
 ### Passo 2: Instalar Dependências
 
