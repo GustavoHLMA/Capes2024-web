@@ -50,9 +50,11 @@ export const Header = styled.header`
 
 export const Section = styled.section`
   margin: 80px auto;
+  margin-left: 40rem;
   margin-top: 0px;
   text-align: left;
   width: 80%;
+  align-items: center;
 
   p {
     font-size: 1rem;

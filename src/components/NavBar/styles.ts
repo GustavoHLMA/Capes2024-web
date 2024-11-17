@@ -86,7 +86,7 @@ export const LogoContainer = styled.div`
 
 export const SearchBar = styled.div`
   width: 100%;
-  max-width: 800px;
+  max-width: 500px;
   margin-bottom: 20px;
   margin-left: 2vw;
   margin-top: 1rem;

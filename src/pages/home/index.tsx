@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Image from 'next/image';
 import treinamento from '../assets/treinamento_CAPES.png';
 import pesquisa from '../assets/pesquisa_ciencia.png';

@@ -75,8 +75,8 @@ export default function NavBar() {
 
       <ButtonBar>
         <button
-          onClick={() => handleNavigation('/assistente-de-pesquisa')}
-          className={isActive('/assistente-de-pesquisa') ? 'active' : ''}
+          onClick={() => handleNavigation('/assistente')}
+          className={isActive('/assistente') ? 'active' : ''}
         >
           Assistente de Pesquisa
         </button>
@@ -93,8 +93,8 @@ export default function NavBar() {
           Educacional
         </button>
         <button
-          onClick={() => handleNavigation('/painel-de-conquistas')}
-          className={isActive('/painel-de-conquistas') ? 'active' : ''}
+          onClick={() => handleNavigation('/gamificacao')}
+          className={isActive('/gamificacao') ? 'active' : ''}
         >
           Painel de Conquistas
         </button>
